@@ -1,0 +1,18 @@
+.contact_points {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    .contact_icon {
+        height: 60px;
+        width: auto;
+        filter: invert(68%) sepia(0%) saturate(0%) hue-rotate(220deg) brightness(87%) contrast(82%);
+    }
+    
+    .icon_mail {
+        height: 70px;
+        width: auto;
+    }
+}

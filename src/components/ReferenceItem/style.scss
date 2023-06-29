@@ -1,0 +1,70 @@
+.reference_item {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #23232E;
+    box-shadow: 5px 5px 5px -3px rgba(0, 0, 0, 0.356);
+    border-radius: 6px;
+
+    .reference_client {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .reference_name {
+        display: flex;
+        flex-direction: column;
+
+        .reference_firstname, .reference_lastname {
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: rgb(207, 204, 204);
+            text-align: left;
+        }
+      }
+
+      .reference_avatar {
+        width: 80px;
+        height: 80px;
+      }
+    }
+
+    .comments {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-size: 1rem;
+        color: rgb(150, 146, 146);
+        line-height: 1.2rem;
+        justify-content: space-between;
+    }
+
+    
+    .show_more {
+    cursor: pointer;
+    background-color: #23232E;
+    display: inline-block;
+    padding: 4px 6px;
+    color: #666;
+    font-size: 1.2rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 15px;
+    text-decoration: none;
+    max-height: 30px;
+    width: 50%;
+    
+    }
+    .show_more:hover {
+        color: #1a1a1a;
+        background-color: white;
+        border: 1px solid #1a1a1a;
+        transition: ease-in-out 0.4s;
+    }
+
+    
+}

@@ -1,0 +1,21 @@
+.service {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #23232E;
+    box-shadow: 5px 5px 5px -3px rgba(0, 0, 0, 0.356);
+    border-radius: 6px;
+    text-align: left;
+
+    .subtitle_h4 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+   
+    .service_description {
+        line-height: 1.2rem;
+        margin-top: 10px;
+    }
+}
