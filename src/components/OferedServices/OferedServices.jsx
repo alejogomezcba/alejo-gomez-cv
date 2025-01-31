@@ -7,9 +7,11 @@ export const OferedServices = ({ data }) => {
   return (
     <div className='ofered_services'>
       <h2 className="subtitle_h2">{title}</h2>
-      {OferedServices.map((service) => {
-        return <ServiceItem data={service} key={service.id} />;
-      })}
+      <div className='services-container' > 
+        {OferedServices.map((service) => {
+          return <ServiceItem data={service} key={service.id} />;
+        })}
+      </div>
     </div>
   )
 };

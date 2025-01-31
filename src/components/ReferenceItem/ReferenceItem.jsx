@@ -34,7 +34,9 @@ const ReferenceItem = ({ data }) => {
      {visibleWords.join(" ")}
      {wordsLength > 15 && (
        <button className='show_more' onClick={toggleShowAllText}>
+        <p>
          {showAllText ? "Ver menos" : "Ver más"}
+        </p>
        </button>
      )}
     </p>

@@ -6,9 +6,11 @@ const References = ({ data }) => {
   return (
     <div className="references_container">
       <h2 className="subtitle_h2">Referencias</h2>
-      {data.map((ref) => {
-        return <ReferenceItem data={ref} key={ref.FullName} />;
-      })}
+      <div className="references-items">
+        {data.map((ref) => {
+          return <ReferenceItem data={ref} key={ref.FullName} />;
+        })}
+      </div>
       <a
         className="more_comments"
         href="https://www.linkedin.com/in/alejo-gomez/"
