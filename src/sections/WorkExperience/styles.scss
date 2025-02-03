@@ -16,6 +16,7 @@
     // .ToolbarWrapper-sc-cif21b-6 {
     //   display: none;
     // }
+    
 
     .Shape-sc-18iuiou-3.iIpxzG.active{
       background: #FFC008;
@@ -69,3 +70,32 @@
     padding: 0;
   }
 } 
+
+@media screen and (max-width: 1023px) {
+  #timeline-main-wrapper{
+    padding: 0;
+    .TimelineVerticalWrapper-sc-1427v1d-0.dBAArN {
+      background-color: '';
+      li.visible{
+        background-color: '';
+        .card-content-wrapper{
+          .timeline-card-content{
+            left: -8%;
+          }
+        }
+        .right{
+          background-color: '';
+          button{
+            left: -30%;
+          }
+          &::before{
+            left: 20%;
+          }
+          &::after{
+            left: 20%;
+          }
+        }
+      }
+    }
+  }
+}

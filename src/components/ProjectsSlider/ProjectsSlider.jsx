@@ -9,8 +9,6 @@ import './style.scss';
 
 export const ProjectsSlider = ({data}) => {
 
-    console.log(data);
-
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleIndexSlider = (e) => {

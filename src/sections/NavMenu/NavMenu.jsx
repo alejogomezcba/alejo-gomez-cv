@@ -7,7 +7,7 @@ const NavMenu = ({ data, setSelectedMenu, selectedMenu }) => {
   };
 
   return (
-    <div className="nav_menu">
+    <div className="nav_menu" id='nav-menu'>
       {data.map((item) => (
         <p className={`menu_item ${selectedMenu === item ? "active" : ""}`} onClick={handleMenuOption} key={item}>
           {item}

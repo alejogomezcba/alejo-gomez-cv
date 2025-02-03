@@ -229,7 +229,7 @@ export const bricks = {
       {
         title: "HandyBreak",
         githubLink: "https://github.com/alejogomezcba/HandyBreak",
-        pageLink: "https://handybreak.com/",
+        pageLink: "https://handybreak.netlify.app/",
         src: handyBreak,
         description: "Página de servicio de coffe break",
         id: 1,
@@ -237,7 +237,7 @@ export const bricks = {
       {
         title: "GifOS",
         githubLink: "https://github.com/alejogomezcba/GifOs",
-        pageLink: "https://adorable-kulfi-2be5d0.netlify.app/",
+        pageLink: "https://alejo-gomez-giphy.netlify.app/",
         src: gifos,
         description:
           "Página que permite buscar y crear gifos usando la api de giphy",
@@ -246,7 +246,7 @@ export const bricks = {
       {
         title: "PodCast",
         githubLink: "https://github.com/alejogomezcba/podcast",
-        pageLink: "https://roaring-lokum-3307af.netlify.app/",
+        pageLink: "https://web-podcast-alejo.netlify.app/",
         src: podcast,
         description: "Página sobre podcast, realizada en landing page",
         id: 3,
@@ -254,7 +254,7 @@ export const bricks = {
       {
         title: "ACTERAPIAS",
         githubLink: "https://github.com/alejogomezcba/acterapias",
-        pageLink: "https://fabulous-pie-520ca8.netlify.app/",
+        pageLink: "https://ac-terapias.netlify.app/",
         src: acterapias,
         description: "Página sobre Terapias Holísticas",
         id: 4,

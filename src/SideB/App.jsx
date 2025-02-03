@@ -12,8 +12,6 @@ const {
   WorkExperienceBricks,
 } = bricks;
 
-import { actualAge } from "../functions/commons";
-
 import HeroSection from "../sections/HeroSection";
 import MobileMenu from "../sections/MobileMenu";
 import PersonalData from "../sections/PersonalData";

@@ -8,7 +8,7 @@ import "./style.scss";
 export const ProjectItem = ({ data }) => {
   const { title, src, id } = data;
 
-  const pageLink = data?.pageLink;
+  const pageLink = data.pageLink ? data.pageLink : facebookLink;
   const githubLink = data?.githubLink;
   const description = data?.description;
 
