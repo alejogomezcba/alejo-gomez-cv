@@ -1,6 +1,6 @@
 import './style.scss';
 
-export const NavMenu = ({ data, setSelectedMenu }) => {
+const NavMenu = ({ data, setSelectedMenu, selectedMenu }) => {
 
   const handleMenuOption = (e) => {
     setSelectedMenu(e.target.outerText);
@@ -9,10 +9,12 @@ export const NavMenu = ({ data, setSelectedMenu }) => {
   return (
     <div className="nav_menu">
       {data.map((item) => (
-        <p className="menu_item" onClick={handleMenuOption} key={item}>
+        <p className={`menu_item ${selectedMenu === item ? "active" : ""}`} onClick={handleMenuOption} key={item}>
           {item}
         </p>
       ))}
     </div>
   );
 };
+
+export default NavMenu;

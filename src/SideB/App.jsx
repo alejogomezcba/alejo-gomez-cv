@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
 
-import { bricks } from '../bricks';
+import { bricks } from "../bricks";
 
 const {
   LinkedinRefs,
@@ -9,35 +9,50 @@ const {
   NavMenuBrick,
   PointOfContactBricks,
   ProjectsBrick,
+  WorkExperienceBricks,
 } = bricks;
 
+import { actualAge } from "../functions/commons";
 
-import References from '../components/References/References';
-import { OferedServices } from '../components/OferedServices/OferedServices';
-import { NavMenu } from '../components/NavMenu/NavMenu';
-import { PointOfContact } from '../components/PointOfContact/PointOfContact';
-import { Projects } from '../components/Projects/Projects';
+import HeroSection from "../sections/HeroSection";
+import MobileMenu from "../sections/MobileMenu";
+import PersonalData from "../sections/PersonalData";
+import References from "../sections/References";
+import OferedServices from "../sections/OferedServices";
+import NavMenu from "../sections/NavMenu";
+import PointOfContact from "../sections/PointOfContact";
+import Projects from "../sections/Projects";
+import WorkExperience from "../sections/WorkExperience";
+import Footer from "../sections/Footer";
 
 export const App = () => {
- 
   const [selectedMenu, setSelectedMenu] = useState("INICIO");
+  const [isOpen, setIsOpen] = useState(false);
+
 
 
   return (
-    <>
-      <NavMenu data={NavMenuBrick} setSelectedMenu={setSelectedMenu} />
+    <div className="main-container">
+      <HeroSection setIsOpen={setIsOpen} isOpen={isOpen} setSelectedMenu={setSelectedMenu} data={NavMenuBrick} selectedMenu={selectedMenu}/>
+      {isOpen && <MobileMenu />}
       {/*Fin de Carga NavMenu*/}
-      { selectedMenu === 'INICIO' &&
+      {selectedMenu === "INICIO" && (
         <>
+          <PersonalData />
           <OferedServices data={ServicesBrick} />
           <References data={LinkedinRefs} />
         </>
-      }
-      {/*Fin de Carga INICIO*/}
-      { selectedMenu === 'CONTACTO' && <PointOfContact data={PointOfContactBricks} /> }
-      {/*Fin de Carga CONTACTO*/}
-      { selectedMenu === 'TRABAJOS' && <Projects data={ProjectsBrick} /> }
-      {/*Fin de Carga TRABAJOS*/}
-    </>
-  )
+      )}
+
+      {selectedMenu === "EXPERIENCIA" && (
+        <WorkExperience data={WorkExperienceBricks} />
+      )}
+
+      {selectedMenu === "TRABAJOS" && <Projects data={ProjectsBrick} />}
+      {selectedMenu === "INICIO" && (
+        <PointOfContact data={PointOfContactBricks} />
+      )}
+      <Footer />
+    </div>
+  );
 };

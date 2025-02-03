@@ -3,13 +3,13 @@ import { useState } from 'react';
 
 
 import './style.scss';
-import { ProjectsSlider } from '../ProjectsSlider/ProjectsSlider';
+import { ProjectsSlider } from '../../components/ProjectsSlider/ProjectsSlider';
 
-export const Projects = ({ data }) => {
+const Projects = ({ data }) => {
   const { GraphicDesigns, WebDesigns }  = data;
 
   return (
-    <>
+    <div className='projects-container'>
     <h2>Trabajos de Diseño gráfico</h2>
     <ProjectsSlider data={GraphicDesigns} />
 
@@ -18,6 +18,8 @@ export const Projects = ({ data }) => {
 
     <h2>Trabajos de Diseño web</h2>
     {<ProjectsSlider data={WebDesigns} />}
-    </>
+    </div>
   );
 };
+
+export default Projects;

@@ -1,0 +1,71 @@
+.section-container {
+    padding: 20px;
+    width: 95%;
+    height: auto;
+
+    .section-title {
+      font-family: 'Rubik', sans-serif;
+      font-size: 1.3rem;
+    }
+
+    .experiences-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    // .ToolbarWrapper-sc-cif21b-6 {
+    //   display: none;
+    // }
+
+    .Shape-sc-18iuiou-3.iIpxzG.active{
+      background: #FFC008;
+    }
+
+    .iIpxzG:not(.using-icon).active{
+      border: 4px solid white
+    }
+
+    .TimelineContentDetails-sc-d7qjm1-5.ePqTsL{
+      color: rgba(255,255,255,0.7);
+      line-height: 1.4rem;
+      font-size: 1.4rem;
+    }
+
+    button{
+      padding: 0;
+      border-radius: 50%;
+    }
+
+    .CardTitle-sc-d7qjm1-3.iZStGN{
+      color: #FFC008
+    }
+
+    .CardTitle-sc-d7qjm1-3.lfSkFF.rc-card-title{
+      font-size: 1.4rem;
+    }
+
+    .CardSubTitle-sc-d7qjm1-2.essako.card-sub-title.rc-card-subtitle{
+      font-size: 1.2rem;
+    }
+
+ }
+  
+ /* Media Query para pantallas pequeñas (por ejemplo, dispositivos móviles) */
+@media (max-width: 768px) {
+  .section-container {
+    padding: 10px;
+  }
+
+  /* Ajusta el tamaño de las tarjetas */
+  .chrono-card {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+
+  .TimelineCardContentWrapper-sc-1427v1d-2.card-content-wrapper.visible {
+    width: 100% !important;
+  }
+  .fOmJAu {
+    padding: 0;
+  }
+} 

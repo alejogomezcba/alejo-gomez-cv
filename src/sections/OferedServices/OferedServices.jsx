@@ -1,8 +1,8 @@
-import { ServiceItem } from '../ServiceItem/ServiceItem';
+import { ServiceItem } from '../../components/ServiceItem/ServiceItem';
 
 import "./style.scss";
 
-export const OferedServices = ({ data }) => {
+const OferedServices = ({ data }) => {
   const {title, OferedServices} = data;
   return (
     <div className='ofered_services'>
@@ -15,3 +15,6 @@ export const OferedServices = ({ data }) => {
     </div>
   )
 };
+
+export default OferedServices;
+

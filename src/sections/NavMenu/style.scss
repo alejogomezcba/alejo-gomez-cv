@@ -1,0 +1,36 @@
+.nav_menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+
+    .menu_item {
+        margin: 0;
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.5rem;
+
+        &:hover {
+            cursor: pointer;
+            color: #FFC008;
+        }
+
+        &.active {
+            font-weight: bold;
+            color: rgb(255, 193, 7); // Color resaltado
+        }
+    }
+
+    .menu_item:last-of-type {
+        margin-right: 0;
+    }
+
+
+}
+
+@media (max-width: 700px) {
+    .nav_menu {
+      display: none;
+    }
+  }

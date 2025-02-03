@@ -1,0 +1,43 @@
+.personal-data-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    width:100%;
+    align-items: flex-start;
+    justify-content: space-between;
+     margin-top: 20px;
+     padding: 10px;
+
+     .persona-data_text{
+        text-align: left;
+        font-size: 1.3rem;
+        width: 45%;
+        margin: 0
+     }
+
+     .persona-data_progressbar{
+        display: flex;
+        flex-Direction: column;
+        width: 45%;
+     }
+}
+
+@media (max-width: 1000px) {
+    .personal-data-container{
+        flex-direction: column;
+        align-items: center;
+        width: 94%;
+
+        .persona-data_text{
+            width: 100%;
+            max-width: 700px;
+        }
+        
+        .persona-data_progressbar{
+            width: 100%;
+            align-items: center;
+            margin-top: 20px;
+        }
+    }
+
+  } 
