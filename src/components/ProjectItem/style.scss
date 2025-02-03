@@ -38,8 +38,8 @@
         animation: fadeIn 2s;
         border-radius: 10px;
         -webkit-box-shadow: 5px 4px 10px -2px rgba(0,0,0,0.47);
-    -moz-box-shadow: 5px 4px 10px -2px rgba(0,0,0,0.47);
-    box-shadow: 5px 4px 10px -2px rgba(0,0,0,0.47);
+        -moz-box-shadow: 5px 4px 10px -2px rgba(0,0,0,0.47);
+        box-shadow: 5px 4px 10px -2px rgba(0,0,0,0.47);
     }
     
     @keyframes fadeIn {
@@ -56,3 +56,30 @@
         width: 100%;
     }
 }
+
+/* Responsividad */
+@media screen and (max-width: 900px) {
+    .image-container{
+
+        .image-item {
+            width: auto;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .submenu{
+            height: 40px;
+            margin: 0;
+            display: flex;
+            .subtitle-h4{
+                margin: 0;
+            }
+            .item-link{
+                height: 20px;
+                .social-icon{
+                    height: 20px;
+                }
+            }
+        }
+    }
+  }
