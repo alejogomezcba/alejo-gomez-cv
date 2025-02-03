@@ -20,7 +20,7 @@ import gifos from "./assets/projects/web/gifos.webp";
 import podcast from "./assets/projects/web/podcast.webp";
 import acterapias from "./assets/projects/web/acterapias.webp";
 import intra from "./assets/projects/web/intra.png";
-import GifExpertApp from "./assets/projects/web/GifExpertApp.png";
+import GifExpertApp from "./assets/projects/web/gifexpertapp.png";
 import knowThisPokemon from "./assets/projects/web/know-this-pokemon.png";
 
 import githubIcon from './assets/commons/github.svg'
