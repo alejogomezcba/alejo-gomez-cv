@@ -1,3 +1,33 @@
+import bolsaEcologica from "./assets/projects/designs/bolsas-ecologicas.webp";
+import carcasaCelular from "./assets/projects/designs/carcasa-celular.webp";
+import carcasaCelular2 from "./assets/projects/designs/carcasa-celular-2.webp";
+import chapaSublimada from "./assets/projects/designs/chapa-sublimada.webp";
+import imanesPersonalizados from "./assets/projects/designs/imanes-personalizados.webp";
+import parchesTela from "./assets/projects/designs/parches-tela.webp";
+import remera1 from "./assets/projects/designs/remera-1.webp";
+import remera2 from "./assets/projects/designs/remera-2.webp";
+import remera3 from "./assets/projects/designs/remera-3.webp";
+import remera4 from "./assets/projects/designs/remera-4.webp";
+import remera5 from "./assets/projects/designs/remera-5.webp";
+import stickers from "./assets/projects/designs/stickers.webp";
+import tarjetasPersonales from "./assets/projects/designs/tarjetas-personales.webp";
+import tazaCaja from "./assets/projects/designs/taza-caja.webp";
+import tazaSublimada from "./assets/projects/designs/taza-sublimada.webp";
+import tazarra from "./assets/projects/designs/tazarra.webp";
+
+import handyBreak from "./assets/projects/web/handybreak.webp";
+import gifos from "./assets/projects/web/gifos.webp";
+import podcast from "./assets/projects/web/podcast.webp";
+import acterapias from "./assets/projects/web/acterapias.webp";
+import intra from "./assets/projects/web/intra.png";
+import GifExpertApp from "./assets/projects/web/GifExpertApp.png";
+import knowThisPokemon from "./assets/projects/web/know-this-pokemon.png";
+
+import githubIcon from './assets/commons/github.svg'
+import evelopeIcon from './assets/commons/envelope.svg'
+import linkedinIcon from './assets/commons/linkedin.svg'
+import whatsappIcon from './assets/commons/whatsapp.svg'
+
 export const bricks = {
   NavMenuBrick: ["INICIO", "EXPERIENCIA", "TRABAJOS"],
   ServicesBrick: {
@@ -115,82 +145,82 @@ export const bricks = {
   ProjectsBrick: {
     GraphicDesigns: [
       {
-        src: "src/assets/projects/designs/bolsas-ecologicas.webp",
+        src: bolsaEcologica,
         title: "Bolsas ecológicas",
         id: 1,
       },
       {
-        src: "src/assets/projects/designs/carcasa-celular.webp",
+        src: carcasaCelular,
         title: "Carcasa de celular sublimada",
         id: 2,
       },
       {
-        src: "src/assets/projects/designs/carcasa-celular-2.webp",
+        src: carcasaCelular2,
         title: "Carcasa de celular sublimada",
         id: 3,
       },
       {
-        src: "src/assets/projects/designs/chapa-sublimada.webp",
+        src: chapaSublimada,
         title: "Chapa de aluminio sublimada",
         id: 4,
       },
       {
-        src: "src/assets/projects/designs/imanes-personalizados.webp",
+        src: imanesPersonalizados,
         title: "Imanes personalizados",
         id: 5,
       },
       {
-        src: "src/assets/projects/designs/parches-tela.webp",
+        src: parchesTela,
         title: "Parche de tela autoadhesivo",
         id: 6,
       },
       {
-        src: "src/assets/projects/designs/remera-1.webp",
+        src: remera1,
         title: "Remera sublimada",
         id: 7,
       },
       {
-        src: "src/assets/projects/designs/remera-2.webp",
+        src: remera2,
         title: "Remera sublimada",
         id: 8,
       },
       {
-        src: "src/assets/projects/designs/remera-3.webp",
+        src: remera3,
         title: "Remera sublimada",
         id: 9,
       },
       {
-        src: "src/assets/projects/designs/remera-4.webp",
+        src: remera4,
         title: "Remera sublimada",
         id: 10,
       },
       {
-        src: "src/assets/projects/designs/remera-5.webp",
+        src: remera5,
         title: "Remera sublimada",
         id: 11,
       },
       {
-        src: "src/assets/projects/designs/stickers.webp",
+        src: stickers,
         title: "Stickers personalizados",
         id: 12,
       },
       {
-        src: "src/assets/projects/designs/tarjetas-personales.webp",
+        src: tarjetasPersonales,
         title: "Tarjetas personales",
         id: 13,
       },
       {
-        src: "src/assets/projects/designs/taza-caja.webp",
+        src: tazaSublimada,
         title: "Taza personalizada",
         id: 14,
       },
       {
-        src: "src/assets/projects/designs/taza-sublimada.webp",
+        src: tazaCaja,
         title: "Taza personalizada",
         id: 15,
       },
       {
-        src: "src/assets/projects/designs/tazarra.webp",
+        src: tazarra,
         title: "Taza/pizarra",
         id: 16,
       },
@@ -200,7 +230,7 @@ export const bricks = {
         title: "HandyBreak",
         githubLink: "https://github.com/alejogomezcba/HandyBreak",
         pageLink: "https://handybreak.com/",
-        src: "src/assets/projects/web/handybreak.webp",
+        src: handyBreak,
         description: "Página de servicio de coffe break",
         id: 1,
       },
@@ -208,7 +238,7 @@ export const bricks = {
         title: "GifOS",
         githubLink: "https://github.com/alejogomezcba/GifOs",
         pageLink: "https://adorable-kulfi-2be5d0.netlify.app/",
-        src: "src/assets/projects/web/gifos.webp",
+        src: gifos,
         description:
           "Página que permite buscar y crear gifos usando la api de giphy",
         id: 2,
@@ -217,7 +247,7 @@ export const bricks = {
         title: "PodCast",
         githubLink: "https://github.com/alejogomezcba/podcast",
         pageLink: "https://roaring-lokum-3307af.netlify.app/",
-        src: "src/assets/projects/web/podcast.webp",
+        src: podcast,
         description: "Página sobre podcast, realizada en landing page",
         id: 3,
       },
@@ -225,9 +255,33 @@ export const bricks = {
         title: "ACTERAPIAS",
         githubLink: "https://github.com/alejogomezcba/acterapias",
         pageLink: "https://fabulous-pie-520ca8.netlify.app/",
-        src: "src/assets/projects/web/acterapias.webp",
+        src: acterapias,
         description: "Página sobre Terapias Holísticas",
         id: 4,
+      },
+      {
+        title: "Quien ese ese Pokemon",
+        githubLink: "https://github.com/alejogomezcba/my-pokemon-app",
+        pageLink: "https://know-this-pokemon.netlify.app/",
+        src: knowThisPokemon,
+        description: "Juego para adiviniar el nombre de un pokemon",
+        id: 5,
+      },
+      {
+        title: "GifExpertApp",
+        githubLink: "https://github.com/alejogomezcba/04-gifexpert-app",
+        pageLink: "https://gifexpertapp-alejo.netlify.app/",
+        src: GifExpertApp,
+        description: "Landing para buscar gifs",
+        id: 6,
+      },
+      {
+        title: "INTRA",
+        githubLink: "https://github.com/alejogomezcba/Intra",
+        pageLink: "https://peaceful-cocada-d3d1e2.netlify.app/",
+        src: intra,
+        description: "Mapa interectivo de la Argentina para mostrar un relevamiento de datos obtenidos de una consultora",
+        id: 7,
       },
     ],
   },
@@ -236,22 +290,22 @@ export const bricks = {
     {
       href: "https://github.com/alejogomezcba/",
       name: "github",
-      icon: "src/assets/commons/github.svg",
+      icon: githubIcon,
     },
     {
       href: "mailto:alejorgomez@gmail.com",
       name: "mail",
-      icon: "src/assets/commons/envelope.svg",
+      icon: evelopeIcon,
     },
     {
       href: "https://www.linkedin.com/in/alejo-gomez/",
       name: "linkedin",
-      icon: "src/assets/commons/linkedin.svg",
+      icon: linkedinIcon,
     },
     {
       href: "https://api.whatsapp.com/send?phone=5493513923674&text=Hola,%20vengo%20desde%20tu%20web",
       name: "whatsapp",
-      icon: "src/assets/commons/whatsapp.svg",
+      icon: whatsappIcon,
     },
   ],
   WorkExperienceBricks : [
