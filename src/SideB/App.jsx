@@ -19,7 +19,6 @@ import MobileMenu from "../sections/MobileMenu";
 import PersonalData from "../sections/PersonalData";
 import References from "../sections/References";
 import OferedServices from "../sections/OferedServices";
-import NavMenu from "../sections/NavMenu";
 import PointOfContact from "../sections/PointOfContact";
 import Projects from "../sections/Projects";
 import WorkExperience from "../sections/WorkExperience";
@@ -34,7 +33,7 @@ export const App = () => {
   return (
     <div className="main-container">
       <HeroSection setIsOpen={setIsOpen} isOpen={isOpen} setSelectedMenu={setSelectedMenu} data={NavMenuBrick} selectedMenu={selectedMenu}/>
-      {isOpen && <MobileMenu />}
+      {isOpen && <MobileMenu setSelectedMenu={setSelectedMenu} selectedMenu={selectedMenu} setIsOpen={setIsOpen}/>}
       {/*Fin de Carga NavMenu*/}
       {selectedMenu === "INICIO" && (
         <>

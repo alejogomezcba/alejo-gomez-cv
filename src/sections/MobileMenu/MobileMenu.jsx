@@ -9,8 +9,14 @@ import { actualAge } from '../../functions/commons';
 
 import { bricks } from '../../bricks';
 
-const MobileMenu = () => {
-    const { skillsBricks, FrameWorksExperienceBricks, PointOfContactBricks } = bricks;
+const MobileMenu = ({ setSelectedMenu, selectedMenu, setIsOpen }) => {
+    const { skillsBricks, FrameWorksExperienceBricks, PointOfContactBricks, NavMenuBrick } = bricks;
+
+    
+  const handleMenuOption = (e) => {
+    setIsOpen(false)
+    setSelectedMenu(e.target.outerText);
+  };
     
   return (
     <div className="mobile-menu_container">
@@ -23,6 +29,14 @@ const MobileMenu = () => {
                 <p>Desarrollador Web</p>
             </div>
         </div>
+      </div>
+
+      <div className="mobile-nav_menu">
+        {NavMenuBrick.map((item) => (
+          <p className={`mobile-menu_item ${selectedMenu === item ? "active" : ""}`} onClick={handleMenuOption} key={item}>
+            {item}
+          </p>
+        ))}
       </div>
 
       <div className='mobile-data'>
