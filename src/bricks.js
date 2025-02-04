@@ -79,13 +79,6 @@ export const bricks = {
         "Alejo es una persona curiosa y proactiva. Ha sabido desenvolverse exitosamente a través de proyecto altamente demandantes. Siempre llevando las tareas con responsabilidad y buen humor. Un excelente profesional!!!",
     },
     {
-      FirstName: "Joaquin",
-      LastName: "Senn",
-      Gender: "male",
-      Comment:
-        "Alejo es un profesional incansable con el que da gusto trabajar.Responsable y confiable, le gustan los retos, lo que se tradujo en que avancemos codo a codo en mejoras para las distintas plataformas en las que estabamos trabajando.Le gusta aprender cosas nuevas, lo que se ve representado en su desarrollo profesional.",
-    },
-    {
       FirstName: "Alejandro",
       LastName: "Funes",
       Gender: "male",
@@ -308,56 +301,56 @@ export const bricks = {
       icon: whatsappIcon,
     },
   ],
-  WorkExperienceBricks : [
+  WorkExperienceBricks: [
     {
-      title: '2000 / 2005',
-      cardSubtitle:  'Negocio familia',
-      cardTitle: 'Atención al público, armado y reparación de electrodomésticos',
-      cardDetailedText: ''
-    },
-    {
-      title: '2006 / 2007',
-      cardSubtitle:  'Apex Sykes Company',
-      cardTitle: 'Atención al cliente',
-      cardDetailedText: 'Solución a los problemas de celulares (Clientes de los Estados Unidos). Realizaba recargas de saldo y activaciones de celulares. Estaba en el area de Técnica en general. Venta de equipos. Llegue a ser mejor agente del mes 2 veces consecutivas, lo que me posibilito ser asistente y reemplazo de supervisor para realizar tareas en caso de que no se encontrara disponible'
-    },
-    {
-      title: '2007 / 2010',
-      cardSubtitle:  'Apex Sykes Company',
-      cardTitle: 'Helpdesk',
-      cardDetailedText: 'Realizaba el diagnóstico, solucionaba y derivaba los requerimientos de soporte técnico, a fin de contribuir a la disponibilidad de los servicios de tecnología y a la satisfacción de los usuarios. Tenía que coordinar y resolver las gestiones de soporte técnico de 1° nivel de las cuentas del edificio a cargo, a fin de asegurar el up time, la disponibilidad de los servicios de tecnología para la operación y la satisfacción de los clientes internos y externos.'
-    },
-    {
-      title: '2010 / 2015',
-      cardSubtitle:  'HP Enterprise Services, Córdoba, Argentina',
-      cardTitle: 'Helpdesk',
-      cardDetailedText: 'Reaizaba la creación de usuarios de Windows/unix. Modificación de permisos en carpetas, creación de grupos de seguridad y de acceso. Creación de cuentas de correo. Brindar acceso a programas y bases de datos'
-    },
-    {
-      title: '2016 / 2019',
-      cardSubtitle:  'Box Custodia, Córdoba, Argentina',
-      cardTitle: 'Helpdesk',
-      cardDetailedText: 'Reparación y mantenimiento de hardware. Administrador del inventario de harware. Encargado de la compra de insumos. Armado y mantenimiento de servidores. Control de los accesos. Administración de las cámaras de Seguridad. Mantenimiento de Escaners de gran producción. Diseño gráfico. Mesa de ayuda para cliente interno (software y hardware para todas las sucursales) como externo (programas de la empresa / Firma Digital). Oficial de Registro para Firma Digital. Gestor Firma Digital.'
-    },
-    {
-      title: '2019 / 2021',
-      cardSubtitle:  'Mercado Libre, Córdoba, Argentina',
-      cardTitle: 'Analista de Soporte',
-      cardDetailedText: 'Validar y corregir productos publicados por vendedores de China / EE.UU. Coordinar con diferentes equipos el correcto funcionamiento de los procesos como así también de las consultás técnicas filtradas por los representantes de Nivel 1.'
+      title: '2023 / Actualidad',
+      cardSubtitle: 'NativoDev',
+      cardTitle: 'Desarrollador Frontend',
+      cardDetailedText: 'Creación y mantenimiento de aplicaciones en React, React Native, Vue y NodeJS. Componentes JSX con Typescript. Librerías Vuetify3, NativeBase, entre otras. Manejo de SQL. Consultas a APIs y DB. Uso de metodologías ágiles.'
     },
     {
       title: '2021 / 2023',
-      cardSubtitle:  'Mercado Libre, Córdoba, Argentina',
+      cardSubtitle: 'Mercado Libre, Córdoba, Argentina',
       cardTitle: 'Desarrollador Frontend',
       cardDetailedText: 'Creación y mantenimiento de aplicaciones y componentes basados en React 16/17 y NodeJS. Componentes JSX, funcionales y de clase. Bibliotecas de estilos de la empresa usando CSS/SASS. React Testing Library. Manejo de SQL. Consultas a APIs y DB. Uso de metodologías ágiles.'
     },
     {
-      title: '2023 / Actualidad',
-      cardSubtitle:  'NativoDev',
-      cardTitle: 'Desarrollador Frontend',
-      cardDetailedText: 'Creación y mantenimiento de aplicaciones en React, React Native, Vue y NodeJS. Componentes JSX con Typescript. Librerías Vuetify3, NativeBase, entre otras. Manejo de SQL. Consultas a APIs y DB. Uso de metodologías ágiles.'
+      title: '2019 / 2021',
+      cardSubtitle: 'Mercado Libre, Córdoba, Argentina',
+      cardTitle: 'Analista de Soporte',
+      cardDetailedText: 'Validar y corregir productos publicados por vendedores de China / EE.UU. Coordinar con diferentes equipos el correcto funcionamiento de los procesos como así también de las consultás técnicas filtradas por los representantes de Nivel 1.'
+    },
+    {
+      title: '2016 / 2019',
+      cardSubtitle: 'Box Custodia, Córdoba, Argentina',
+      cardTitle: 'Helpdesk',
+      cardDetailedText: 'Reparación y mantenimiento de hardware. Administrador del inventario de hardware. Encargado de la compra de insumos. Armado y mantenimiento de servidores. Control de los accesos. Administración de las cámaras de Seguridad. Mantenimiento de Escaners de gran producción. Diseño gráfico. Mesa de ayuda para cliente interno (software y hardware para todas las sucursales) como externo (programas de la empresa / Firma Digital). Oficial de Registro para Firma Digital. Gestor Firma Digital.'
+    },
+    {
+      title: '2010 / 2015',
+      cardSubtitle: 'HP Enterprise Services, Córdoba, Argentina',
+      cardTitle: 'Helpdesk',
+      cardDetailedText: 'Realizaba la creación de usuarios de Windows/unix. Modificación de permisos en carpetas, creación de grupos de seguridad y de acceso. Creación de cuentas de correo. Brindar acceso a programas y bases de datos.'
+    },
+    {
+      title: '2007 / 2010',
+      cardSubtitle: 'Apex Sykes Company',
+      cardTitle: 'Helpdesk',
+      cardDetailedText: 'Realizaba el diagnóstico, solucionaba y derivaba los requerimientos de soporte técnico, a fin de contribuir a la disponibilidad de los servicios de tecnología y a la satisfacción de los usuarios. Tenía que coordinar y resolver las gestiones de soporte técnico de 1° nivel de las cuentas del edificio a cargo, a fin de asegurar el up time, la disponibilidad de los servicios de tecnología para la operación y la satisfacción de los clientes internos y externos.'
+    },
+    {
+      title: '2006 / 2007',
+      cardSubtitle: 'Apex Sykes Company',
+      cardTitle: 'Atención al cliente',
+      cardDetailedText: 'Solución a los problemas de celulares (Clientes de los Estados Unidos). Realizaba recargas de saldo y activaciones de celulares. Estaba en el área de Técnica en general. Venta de equipos. Llegué a ser mejor agente del mes 2 veces consecutivas, lo que me posibilitó ser asistente y reemplazo de supervisor para realizar tareas en caso de que no se encontrara disponible.'
+    },
+    {
+      title: '2000 / 2005',
+      cardSubtitle: 'Negocio familiar',
+      cardTitle: 'Atención al público, armado y reparación de electrodomésticos',
+      cardDetailedText: ''
     }
-  ],
+  ],  
   skillsBricks: [
     {
       title: "HTML",
