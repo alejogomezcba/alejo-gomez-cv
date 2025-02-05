@@ -1,0 +1,30 @@
+.progress-animated-container{
+    width: 90%;
+    margin: 5px 0;
+    max-width: 400px;
+    .progress-animated_title {
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: "Rubik", sans-serif;
+            text-transform: uppercase;
+            height: 50%;
+            font-size: 0.85rem;
+            h3 {
+                margin: 0;
+                padding: 0;
+                font-size: 0.85rem;
+            }
+            span {
+                font-weight: bold;
+                font-size: 0.85rem;
+                .progress-porcentage{
+                    font-size: 0.85rem;
+                }
+            }
+
+    }
+}

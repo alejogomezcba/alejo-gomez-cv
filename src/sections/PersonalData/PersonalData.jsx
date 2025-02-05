@@ -3,6 +3,7 @@ import { actualAge } from "../../functions/commons";
 import CircularProgressBar from "../../components/CircularProgressBar";
 import ProgressBar from "../../components/ProgressBar";
 import ExperienceProgressBar from "../../components/ExperienceProgressBar";
+import AnimatedProgressBar from "../../components/AnimatedProgressBar/AnimatedProgressBar";
 
 
 import { bricks } from "../../bricks";
@@ -48,9 +49,17 @@ const PersonalData = () => {
                 <CircularProgressBar title='Español' value={100} color="#ffc107" backgroundColor="rgba(255,255,255,0.1)" size={65} progressWidth={3} strokeColor={'rgba(255,255,255,0.3)'}/>
                 <CircularProgressBar title="Inglés" value={75} color="#ffc107" backgroundColor="rgba(255,255,255,0.1)" size={65} progressWidth={3} strokeColor={'rgba(255,255,255,0.3)'}/>
             </div>
-        {skillsBricks.map( (item, index) => (
-                <ProgressBar title={item.title} value={item.value} color="#ffc107" backgroundColor="rgba(255,255,255,0.1)" key={index}/>
+        {skillsBricks.map( (item) => (
+                <AnimatedProgressBar
+                  title={item.title}
+                  key={item.title}
+                  value={item.value}
+                  bgColor="rgba(255,255,255,0.1)"
+                  fillColor="#ffc107"
+                />
+                //<ProgressBar title={item.title} value={item.value} color="#ffc107" backgroundColor="rgba(255,255,255,0.1)" key={index}/>
             ))}
+            <br />
             { FrameWorksExperienceBricks.map( (item, index) => (
                 <ExperienceProgressBar key={index} title={item.title} years={item.years} minYears={0} maxYears={20} color='#ffc107' backgroundColor="rgba(255,255,255,0.1)"/>
             ))}

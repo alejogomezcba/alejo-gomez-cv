@@ -4,6 +4,7 @@ import avatarImage from '../../assets/avatars/avatar.png'
 import ProgressBar from '../../components/ProgressBar';
 import CircularProgressBar from '../../components/CircularProgressBar';
 import ExperienceProgressBar from '../../components/ExperienceProgressBar';
+import AnimatedProgressBar from '../../components/AnimatedProgressBar/AnimatedProgressBar';
 
 import { actualAge } from '../../functions/commons';
 
@@ -51,7 +52,15 @@ const MobileMenu = ({ setSelectedMenu, selectedMenu, setIsOpen }) => {
          </div> 
 
       </div>
-        {skillsBricks.map( (item, index) => <ProgressBar title={item.title} value={item.value} color="#ffc107" backgroundColor="rgba(255,255,255,0.1)" key={index}/>)}
+        {skillsBricks.map( (item) => 
+          <AnimatedProgressBar
+            title={item.title}
+            key={item.title}
+            value={item.value}
+            bgColor="rgba(255,255,255,0.1)"
+            fillColor="#ffc107"
+          />
+        )}
         { FrameWorksExperienceBricks.map( (item, index) => <ExperienceProgressBar key={index} title={item.title} years={item.years} minYears={0} maxYears={20} color='#ffc107' backgroundColor="rgba(255,255,255,0.1)"/>)}
         
         {/* <ProgressBar title="Progreso del proyecto" value={75} color="#ffc107" backgroundColor="rgba(255,255,255,0.1)" />

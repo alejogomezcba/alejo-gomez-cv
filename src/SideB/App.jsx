@@ -49,6 +49,7 @@ export const App = () => {
       {selectedMenu === "INICIO" && (
         <PointOfContact data={PointOfContactBricks} />
       )}
+
       <Footer />
     </div>
   );
