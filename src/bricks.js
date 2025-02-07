@@ -22,6 +22,7 @@ import acterapias from "./assets/projects/web/acterapias.webp";
 import intra from "./assets/projects/web/intra.png";
 import GifExpertApp from "./assets/projects/web/gifexpertapp.png";
 import knowThisPokemon from "./assets/projects/web/know-this-pokemon.png";
+import pokedex from "./assets/projects/web/pokedex.png";
 
 import githubIcon from './assets/commons/github.svg'
 import evelopeIcon from './assets/commons/envelope.svg'
@@ -275,6 +276,14 @@ export const bricks = {
         src: intra,
         description: "Mapa interectivo de la Argentina para mostrar un relevamiento de datos obtenidos de una consultora",
         id: 7,
+      },
+      {
+        title: "Pokedex",
+        githubLink: "https://github.com/alejogomezcba/my-pokedex-app",
+        pageLink: "https://pokedex-alejo.netlify.app/",
+        src: pokedex,
+        description: "Pokedex para buscar pokemons y sus caracteristicas",
+        id: 8,
       },
     ],
   },
