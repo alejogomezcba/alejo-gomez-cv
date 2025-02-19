@@ -23,6 +23,8 @@ import intra from "./assets/projects/web/intra.png";
 import GifExpertApp from "./assets/projects/web/gifexpertapp.png";
 import knowThisPokemon from "./assets/projects/web/know-this-pokemon.png";
 import pokedex from "./assets/projects/web/pokedex.png";
+import dados from './assets/projects/web/dados.png';
+import temperatura from './assets/projects/web/temperatura.png';
 
 import githubIcon from './assets/commons/github.svg'
 import evelopeIcon from './assets/commons/envelope.svg'
@@ -284,6 +286,22 @@ export const bricks = {
         src: pokedex,
         description: "Pokedex para buscar pokemons y sus caracteristicas",
         id: 8,
+      },
+      {
+        title: "Conversor de Temperatura",
+        githubLink: "https://github.com/alejogomezcba/tempeture-converter",
+        pageLink: "https://convertir-temperatura.netlify.app/",
+        src: temperatura,
+        description: "Convertidor de temperatura de fahrenheit a celsius y viceversa.",
+        id: 9,
+      },
+      {
+        title: "Lanzador de dados",
+        githubLink: "https://github.com/alejogomezcba/dice-roller",
+        pageLink: "https://lanzardado.netlify.app/",
+        src: dados,
+        description: "App en JS para lanzar dados",
+        id: 10,
       },
     ],
   },
