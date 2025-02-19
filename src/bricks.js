@@ -25,6 +25,9 @@ import knowThisPokemon from "./assets/projects/web/know-this-pokemon.png";
 import pokedex from "./assets/projects/web/pokedex.png";
 import dados from './assets/projects/web/dados.png';
 import temperatura from './assets/projects/web/temperatura.png';
+import calculadora from './assets/projects/web/calculadora.png';
+import rpsls from './assets/projects/web/rpsls.png';
+
 
 import githubIcon from './assets/commons/github.svg'
 import evelopeIcon from './assets/commons/envelope.svg'
@@ -307,9 +310,17 @@ export const bricks = {
         title: "Calculadora",
         githubLink: "https://github.com/alejogomezcba/calculadora",
         pageLink: "https://calculadora-alejo.netlify.app/",
-        src: dados,
+        src: calculadora,
         description: "Calculadora con html, js, css",
         id: 11,
+      },
+      {
+        title: "Rock-Paper-Scissors-Lizard-Spock",
+        githubLink: "https://github.com/alejogomezcba/rock-paper-scissors-lizard-spock",
+        pageLink: "https://calculadora-alejo.netlify.app/",
+        src: rpsls,
+        description: "Juego con JS Rock-Paper-Scissors-Lizard-Spock",
+        id: 12,
       },
     ],
   },
