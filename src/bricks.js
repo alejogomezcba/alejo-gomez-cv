@@ -303,6 +303,14 @@ export const bricks = {
         description: "App en JS para lanzar dados",
         id: 10,
       },
+      {
+        title: "Calculadora",
+        githubLink: "https://github.com/alejogomezcba/calculadora",
+        pageLink: "https://calculadora-alejo.netlify.app/",
+        src: dados,
+        description: "Calculadora con html, js, css",
+        id: 11,
+      },
     ],
   },
 
