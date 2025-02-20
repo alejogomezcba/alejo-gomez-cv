@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import "./styles.scss";
-import WorkExperienceItem from "../../components/WorkExperienceItem";
+//import WorkExperienceItem from "../../components/WorkExperienceItem";
 import { Chrono } from "react-chrono";
 
 const WorkExperience = ({ data }) => {
@@ -54,7 +54,7 @@ const WorkExperience = ({ data }) => {
           cardTitle: item.cardTitle,
           cardSubtitle: item.cardSubtitle,
           cardDetailedText: item.cardDetailedText,
-          buttonText: item.cardDetailedText ? "Mostrar Más" : null, // Condicional para mostrar el botón
+          buttonText: item.cardDetailedText ? "Mostrar Más" : null,
         }))}
       />
     </div>
