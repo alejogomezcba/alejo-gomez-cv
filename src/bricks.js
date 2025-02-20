@@ -27,7 +27,7 @@ import dados from './assets/projects/web/dados.png';
 import temperatura from './assets/projects/web/temperatura.png';
 import calculadora from './assets/projects/web/calculadora.png';
 import rpsls from './assets/projects/web/rpsls.png';
-import weatherApp from './assets/projects/web/rpsls.png';
+import weatherApp from './assets/projects/web/weather-app.png';
 
 import githubIcon from './assets/commons/github.svg'
 import evelopeIcon from './assets/commons/envelope.svg'
