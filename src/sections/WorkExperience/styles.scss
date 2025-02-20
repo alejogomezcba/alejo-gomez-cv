@@ -3,6 +3,47 @@
     width: 95%;
     height: auto;
 
+    .rc-card-title{
+      font-size: 1.4rem;
+      color: white;
+    }
+
+    .rc-card-subtitle {
+      color: rgba(255,255,255,0.5);
+    }
+
+    .card-description.rc-card-text {
+      p {
+        color: white
+      }
+    }
+
+    .show-more{
+      span{
+        color: rgba(255,255,255,0.4);
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+    }
+    .show-more:hover{
+      text-decoration: none;
+      span{
+        color: white;
+      }
+    }
+
+    .timeline-item-title.rc-title {
+      font-size: 1.3rem;
+      color: white;
+    }
+
+    .timeline-item-title.active.rc-title {
+      background-color: white;
+      color: rgba(0,0,0,0.7);
+      font-weight: bold;
+      padding: 4px 10px;
+    }
+
     .section-title {
       font-family: 'Rubik', sans-serif;
       font-size: 1.3rem;
@@ -41,9 +82,7 @@
       color: #FFC008
     }
 
-    .CardTitle-sc-d7qjm1-3.lfSkFF.rc-card-title{
-      font-size: 1.4rem;
-    }
+
 
     .CardSubTitle-sc-d7qjm1-2.essako.card-sub-title.rc-card-subtitle{
       font-size: 1.2rem;

@@ -1,4 +1,4 @@
-import ReferenceItem from "../../components/ReferenceItem/ReferenceItem";
+import ReferenceItem from "../../components/ReferenceItem";
 
 import "./style.scss";
 

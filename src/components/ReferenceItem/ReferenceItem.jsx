@@ -3,6 +3,8 @@ import { useState } from 'react';
 import maleAvatar from '../../assets/avatars/avatar_male.png';
 import femaleAvatar from '../../assets/avatars/avatar_female.png';
 
+import "./style.scss";
+
 const ReferenceItem = ({ data }) => {
   const { FirstName, LastName , Gender, Comment } = data;  
   const imageSrc = Gender === 'male' ? maleAvatar : femaleAvatar;

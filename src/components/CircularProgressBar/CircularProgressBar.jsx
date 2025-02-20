@@ -79,7 +79,7 @@ const CircularProgressBar = ({
           <span className="circular-progress_porcentage">%</span>
         </div>
       </div>
-        <h3 style={{ margin: 0, padding: 0 }}>{title}</h3>
+        <h3 style={{ margin: 0, padding: 0, color: 'white' }}>{title}</h3>
     </div>
   );
 };

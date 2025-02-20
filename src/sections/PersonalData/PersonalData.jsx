@@ -1,7 +1,7 @@
 
-import { actualAge } from "../../functions/commons";
+//import { actualAge } from "../../functions/commons";
 import CircularProgressBar from "../../components/CircularProgressBar";
-import ProgressBar from "../../components/ProgressBar";
+//import ProgressBar from "../../components/ProgressBar";
 import ExperienceProgressBar from "../../components/ExperienceProgressBar";
 import AnimatedProgressBar from "../../components/AnimatedProgressBar/AnimatedProgressBar";
 
