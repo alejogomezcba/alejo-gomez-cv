@@ -27,7 +27,7 @@ import dados from './assets/projects/web/dados.png';
 import temperatura from './assets/projects/web/temperatura.png';
 import calculadora from './assets/projects/web/calculadora.png';
 import rpsls from './assets/projects/web/rpsls.png';
-
+import weatherApp from './assets/projects/web/rpsls.png';
 
 import githubIcon from './assets/commons/github.svg'
 import evelopeIcon from './assets/commons/envelope.svg'
@@ -320,6 +320,14 @@ export const bricks = {
         pageLink: "https://calculadora-alejo.netlify.app/",
         src: rpsls,
         description: "Juego con JS Rock-Paper-Scissors-Lizard-Spock",
+        id: 12,
+      },
+      {
+        title: "Aplicacion del Clima",
+        githubLink: "https://github.com/alejogomezcba/weather-app",
+        pageLink: "https://app-clima-alejo.netlify.app/",
+        src: weatherApp,
+        description: "Aplicacion para ver el clima en las ciudades y guardarlas en el localStorage",
         id: 12,
       },
     ],
